@@ -1,0 +1,74 @@
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V00
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# Node (if any tooling is added later)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python (if any scripts are added)
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+*.egg-info/
+dist/
+build/
+
+# LaTeX (if typesetting tools are used)
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+
+# Pandoc / conversion artifacts
+*.tmp
+*.temp
+
+# Draft and private working files
+drafts/
+private/
+scratch/
+notes-private/
+*.draft.md
+*.wip.md
+
+# Output artifacts (keep sources, not compiled outputs)
+_site/
+_build/
+output/
+exports/
+
+# Compressed archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
